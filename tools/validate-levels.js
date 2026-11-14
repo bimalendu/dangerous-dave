@@ -1,5 +1,6 @@
 // Checks every level: shape, required tiles, and that the trophy, door, warp and pickups
 // can be reached under a conservative model of Dave's jump (2 tiles up, about 3 across).
+// How precise those jumps must be is measured separately by tools/difficulty.js.
 'use strict';
 const path = require('path');
 const js = f => path.join(__dirname, '..', 'js', f);
